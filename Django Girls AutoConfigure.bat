@@ -9,7 +9,8 @@ myvenv\scripts\activate
 echo Done Activating Virtual Environment!
 @echo on
 pip install --upgrade pip
-pip install django~=1.10.0
+Rem You can change the django version on the next line
+pip install django~=1.10.0 
 django-admin startproject mysite .
 dir
 
