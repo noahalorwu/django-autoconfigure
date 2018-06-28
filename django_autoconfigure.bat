@@ -4,7 +4,7 @@ title Django Girls Workshop!
 mkdir djangogirls
 cd djangogirls
 python -m venv myvenv
-myvenv\scripts\activate
+call myvenv\scripts\activate
 @echo off 
 echo Done Activating Virtual Environment!
 @echo on

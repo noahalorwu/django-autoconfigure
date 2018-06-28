@@ -15,7 +15,7 @@ This batch script is to automate the processess involved starting a Django Proje
 **How to run script**
 1. Open Command Prompt
 2. Change directory to where the script is located
-3. Type D and press the Tab key then hit Enter 
+3. Type **d** and press the Tab key then hit Enter 
 4. Wait for the script to execute till mysite directory opens!
 
 _Happy Coding!_ 
