@@ -1,6 +1,6 @@
 ## Django Girls Batch
 
-This batch script is to automate the processess involved starting a Django Project!
+> This batch script is to automate the processess involved starting a Django Project!
 
 **Below are the processes handled by the script:**
 1. Making a directory
