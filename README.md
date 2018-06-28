@@ -16,6 +16,6 @@
 1. Open Command Prompt
 2. Change directory to where the script is located
 3. Type **d** and press the Tab key then hit Enter 
-4. Wait for the script to execute till mysite directory opens!
+4. Wait for the script to execute till **mysite** directory opens!
 
 _Happy Coding!_ 
