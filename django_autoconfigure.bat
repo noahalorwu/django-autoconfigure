@@ -1,8 +1,9 @@
 @Echo off
 title Django Girls Workshop!
+set /p input=Enter Project name:
 @echo on
-mkdir djangogirls
-cd djangogirls
+mkdir %input%
+pushd "%input%"
 python -m venv myvenv
 call myvenv\scripts\activate
 @echo off 
@@ -11,7 +12,11 @@ echo Done Activating Virtual Environment!
 pip install --upgrade pip
 Rem You can change the django version on the next line
 pip install django~=1.10.0 
-django-admin startproject mysite .
+@Echo off
+set /p input2=Django project name(Eg. mysite):
+
+@echo on
+django-admin startproject "%input2%" .
 dir
 
 @echo off
@@ -23,4 +28,35 @@ echo Happy coding!
 Timeout /T 5
 
 @echo on
-start mysite
+start %input2%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
