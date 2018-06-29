@@ -1,5 +1,5 @@
 @Echo off
-title Django Girls Workshop!
+title Django Autoconfigure - By Noah Alorwu!
 set /p input=Enter Project name:
 @echo on
 mkdir %input%
