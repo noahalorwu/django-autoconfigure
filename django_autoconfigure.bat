@@ -11,7 +11,7 @@ echo Done Activating Virtual Environment!
 @echo on
 pip install --upgrade pip
 Rem You can change the django version on the next line
-pip install django~=1.10.0 
+pip install django
 @Echo off
 set /p input2=Django project name(Eg. mysite):
 
