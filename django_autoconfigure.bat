@@ -1,5 +1,5 @@
 @Echo off
-title Django Autoconfigure - By Noah Alorwu!
+title Django Autoconfigure 
 set /p input=Enter Project name:
 @echo on
 mkdir %input%
@@ -7,7 +7,7 @@ pushd "%input%"
 python -m venv myvenv
 call myvenv\scripts\activate
 @echo off 
-echo Done Activating Virtual Environment!
+echo Done activating virtual environment!
 @echo on
 pip install --upgrade pip
 Rem You can change the django version on the next line
@@ -23,7 +23,7 @@ dir
 echo Yah! You just started a Django Project!
 echo Your project directory will open next.
 echo Do the necessary configurations!
-echo Happy coding!
+echo Happy Coding (:
 
 Timeout /T 5
 
